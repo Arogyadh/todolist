@@ -32,8 +32,14 @@ const item2 = new Item({
 const item3 = new Item({
   name: "<-- Hit this to delete.",
 });
+const item4 = new Item({
+  name: "After url put your own custom listName to use your own list",
+});
+const item5 = new Item({
+  name: "for eg: https://node-mongodb-todolist-ih0i.onrender.com/Mytestlist",
+});
 
-const defaultItems = [item1, item2, item3];
+const defaultItems = [item1, item2, item3, item4, item5];
 
 const listSchema = {
   name: String,
